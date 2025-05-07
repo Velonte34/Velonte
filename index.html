@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velonté - Zarafetin Saati</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #222;
+      color: #fff;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://github.com/velonte34/Velonte/raw/main/saat.png.avif') no-repeat center center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+    .product {
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 10px;
+      transition: box-shadow 0.3s ease;
+    }
+    .product:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>Velonté</strong></div>
+    <nav>
+      <a href="#home">Ana Sayfa</a>
+      <a href="#products">Ürünler</a>
+      <a href="#categories">Kategoriler</a>
+      <a href="#contact">İletişim</a>
+      <a href="#payment">Ödeme</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Zamana Zarafet Kat</h1>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Öne Çıkan Saatler</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Velonté Gold</h3>
+        <p>Altın detaylı şık tasarım</p>
+      </div>
+      <div class="product">
+        <h3>Velonté Classic</h3>
+        <p>Günlük kullanım için zarif saat</p>
+      </div>
+      <div class="product">
+        <h3>Velonté Noir</h3>
+        <p>Siyah ve gizemli dokunuş</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <h2>Kategoriler</h2>
+    <p>Erkek Saatleri | Kadın Saatleri | Klasik | Spor</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>İletişim</h2>
+    <p>Bize ulaşmak için: info@velonte.com</p>
+  </section>
+
+  <section class="section" id="payment">
+    <h2>Ödeme Bilgileri</h2>
+    <p>Kredi kartı ile güvenli alışveriş. Ödeme altyapısı yakında entegre edilecektir.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Velonté. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>
